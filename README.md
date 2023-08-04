@@ -1,4 +1,4 @@
-# User Data Update Test Website
+# User Data Test Website
 
 ## Table of Contents
 - [Introduction](#introduction)
