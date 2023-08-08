@@ -56,6 +56,7 @@ app.post('/', async (req, res) => {
 app.get('/update', async (req, res) => {
     try {
         const allUsers = await User.find();
+        //console.log(allUsers)
         res.render('update', { users: allUsers });
     } catch (error) {
         console.error(error);
